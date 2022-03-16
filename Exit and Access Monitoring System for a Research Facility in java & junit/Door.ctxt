@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Door
+comment0.text=\n\ A\ door\ provides\ a\ one-way\ connection\ between\ two\ rooms.\ It\n\ has\ a\ Door\ number\ and\ information\ about\ both\ the\ "from"\ and\n\ the\ "to"\ room\n\ \n\ @author\ (Ahmed\ Aboo)\ \n\ @version\ (Version\ 1)\n
+comment1.params=did
+comment1.target=Door(int)
+comment2.params=p\ src\ dest
+comment2.target=boolean\ is_move_allow(Pass,\ Room,\ Room)
+comment3.params=p\ src\ dest
+comment3.target=java.lang.String\ try_move(Pass,\ Room,\ Room)
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

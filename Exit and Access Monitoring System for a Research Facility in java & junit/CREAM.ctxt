@@ -1,0 +1,37 @@
+#BlueJ class context
+comment0.target=CREAM
+comment0.text=\n\ Write\ a\ description\ of\ interface\ CREAM\ here.\n\ \n\ @author\ (Ahmed\ Aboo)\ \n\ @version\ (Version\ 1)\n
+comment1.params=
+comment1.target=java.lang.String\ toString()
+comment1.text=\n\ Returns\ all\ of\ the\ details\ of\ all\ rooms\ including\ the\ passes\n\ currently\ in\ each\ room,\ or\ "No\ passes"\n\ @return\ all\ of\ the\ details\ of\ all\ rooms\ including\ location\ \n\ of\ all\ passes\ currently\ in\ each\ room,\ or\ "No\ passes"\ \n
+comment10.params=id
+comment10.target=void\ resetPass(int)
+comment11.params=id
+comment11.target=void\ moveOutside(int)
+comment12.params=
+comment12.target=void\ evacuateall()
+comment2.params=
+comment2.target=java.lang.String\ getAllPassesInAllRooms()
+comment2.text=Returns\ a\ String\ representation\ of\ all\ the\ passes\ in\ all\ rooms\n\ @return\ a\ String\ representation\ of\ all\ passes\ in\ all\ rooms,\ room\ code\n\ and\ name\ should\ be\ included\ at\ the\ start\ of\ the\ list\n
+comment3.params=ps
+comment3.target=int\ findPass(int)
+comment3.text=Returns\ the\ name\ of\ the\ room\ which\ contains\ the\ specified\ pass\ or\ null\n\ @param\ ps\ -\ the\ specified\ pass\n\ @return\ the\ number\ of\ the\ Room\ which\ contains\ the\ pass,\ or\ -1\n
+comment4.params=rm
+comment4.target=int\ getRoomNo(java.lang.String)
+comment4.text=\ Given\ the\ name\ of\ a\ room,\ returns\ the\ room\ code\n\ or\ null\ if\ room\ does\ not\ exist\n\ @param\ name\ of\ room\n\ @return\ number\ of\ room,\ or\ -1\ if\ the\ room\ does\ not\ exist\n
+comment5.params=rmNo
+comment5.target=java.lang.String\ getAllPassesInRoom(int)
+comment5.text=Returns\ a\ String\ representation\ of\ all\ the\ passes\ in\ specified\ room\n\ @roomCode\ the\ room\ code\n\ @return\ a\ String\ representation\ of\ all\ passes\ in\ specified\ room,\ or\n\ "No\ such\ room"\n
+comment6.params=pNo
+comment6.target=java.lang.String\ showPass(int)
+comment6.text=\ Returns\ a\ String\ with\ all\ of\ the\ details\ of\ a\ Pass\n\ @param\ passNo\ is\ the\ pass\ number\n\ @return\ all\ details\ of\ the\ Pass,\ or\ "No\ such\ Pass"\n
+comment7.params=psId\ doorNo
+comment7.target=boolean\ canMove(int,\ int)
+comment7.text=Returns\ true\ if\ a\ Pass\ is\ allowed\ to\ move\ using\ the\ door,\ false\ otherwise\n\ A\ move\ can\ be\ made\ if\:\ \ \n\ the\ protection\ rating\ of\ the\ pass\ \ >\=\ the\ danger\ rating\ of\ the\ destination\ room\n\ AND\ the\ destination\ room\ is\ not\ full\n\ AND\ the\ pass\ has\ hours\ left\ >\=\ limit\ of\ the\ destination\ room\n\ AND\ the\ pass\ is\ currently\ in\ the\ source\ room\n\ AND\ the\ pass\ id\ is\ for\ a\ pass\ in\ the\ system\n\ AND\ the\ door\ number\ is\ the\ number\ for\ a\ door\ in\ the\ system\n\ @param\ psId\ is\ the\ id\ of\ the\ pass\ requesting\ the\ move\n\ @param\ doorNo\ is\ the\ number\ of\ the\ door\ through\ which\ the\ pass\ wants\ to\ move\n\ @return\ true\ if\ the\ pass\ is\ allowed\ in\ the\ move,\ false\ otherwise\ \n
+comment8.params=psId\ doorNo
+comment8.target=java.lang.String\ move(int,\ int)
+comment8.text=Returns\ the\ result\ of\ a\ pass\ requesting\ to\ move\ by\ Door.\n\ A\ move\ will\ be\ successful\ if\:\ \ \n\ the\ protection\ rating\ of\ the\ pass\ \ >\=\ the\ danger\ rating\ of\ the\ destination\ room\n\ AND\ the\ destination\ room\ is\ not\ full\n\ AND\ the\ pass\ has\ sufficient\ hours\ left\ >\=\ limit\ of\ the\ destination\ room\n\ AND\ the\ pass\ is\ currently\ in\ the\ source\ room\n\ AND\ the\ pass\ id\ is\ for\ a\ pass\ in\ the\ system\n\ AND\ the\ door\ number\ is\ the\ number\ for\ a\ door\ in\ the\ system\n\ If\ the\ move\ can\ be\ made,\ the\ pass\ information\ is\ removed\ from\ the\ source\n\ room,\ added\ to\ the\ destination\ room\ and\ a\ suitable\ message\ returned.\n\ If\ move\ cannot\ be\ made,\ the\ state\ of\ the\ system\ remains\ unchanged\n\ and\ a\ message\ specifying\ the\ reason\ is\ returned.\n\ @param\ psId\ is\ the\ id\ of\ the\ pass\ requesting\ the\ move\n\ @param\ doorNo\ is\ the\ number\ of\ the\ door\ through\ which\ the\ pass\ wants\ to\ move\n\ @return\ a\ String\ giving\ the\ result\ of\ the\ request\ \n
+comment9.params=
+comment9.target=void\ resetAllPasses()
+comment9.text=\ Resets\ all\ passes\ \n
+numComments=13

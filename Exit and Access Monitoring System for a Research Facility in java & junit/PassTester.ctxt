@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=PassTester
+comment0.text=\n\ The\ test\ class\ PassTest.\n\n\ @author\ \ (Ahmed\ Aboo)\n\ @version\ (Version\ 1)\n
+comment1.params=
+comment1.target=PassTester()
+comment1.text=\n\ Default\ constructor\ for\ test\ class\ PassTest\n
+comment2.params=
+comment2.target=void\ main()
+numComments=3

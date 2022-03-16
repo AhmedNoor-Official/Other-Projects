@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Pass
+comment0.text=\n\ A\ Pass\ has\ an\ id\ number,\ name,\ a\ protection\ rating\ and\ number\ of\ hours.\n\ \n\ @author\ (Ahmed\ Aboo)\ \n\ @version\ (Version\ 1)\n
+comment1.params=id\ name\ prating\ hours
+comment1.target=Pass(int,\ java.lang.String,\ int,\ int)
+comment2.params=
+comment2.target=int\ get_id()
+comment3.params=
+comment3.target=int\ get_rating()
+comment4.params=
+comment4.target=int\ get_allowable_hours()
+comment5.params=
+comment5.target=int\ get_moves_count()
+comment6.params=
+comment6.target=java.lang.Boolean\ moves_increment()
+comment7.params=hours
+comment7.target=java.lang.String\ deduct_hours(int)
+comment8.params=
+comment8.target=void\ reset()
+comment9.params=
+comment9.target=java.lang.String\ toString()
+numComments=10
